@@ -26,7 +26,7 @@ TMDB API : https://developer.themoviedb.org/reference/intro/getting-started
 
 # Gif
 
-![](/movie-app/public/images/MOVIEWEB.gif)
+![](./public/images/MOVIEWEB.gif)
 
 # Installation
 
