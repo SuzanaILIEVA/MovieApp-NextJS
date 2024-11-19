@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Your default theme */
+  --background: white;
+  --foreground: black;
+}
+* {
+  scroll-behavior: smooth;
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: #ffc20a #424242; /* Firefox */
+
+  ::-webkit-scrollbar {
+    width: 5px; /* Chrome, Safari */
+  }
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #424242;
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #ffc20a;
+    border-radius: 10px;
+  }
+}
+
+[data-theme="dark"] {
+  --background: black;
+  --foreground: white;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
